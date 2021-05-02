@@ -1,0 +1,49 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #ffffff5;
+  color: var(--primary-text-color);
+}
+.header .header-address {
+  color: #000000;
+}
+.header .studio:hover,
+.header .studio:focus {
+  color: var(--accent-color);
+}
+.header .contacts {
+  color: var(--title-text-color);
+}
+.header .tel {
+  color: #757575;
+}
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+ {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer .link-address {
+  color: #ffffff;
+}
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
