@@ -4,7 +4,7 @@
   --accent-color: #2196f3;
 }
 body {
-  background-color: #ffffff5;
+  background-color: #ffffff;
   color: var(--primary-text-color);
 }
 .header .header-address {
