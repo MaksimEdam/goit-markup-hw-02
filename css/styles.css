@@ -4,7 +4,6 @@
   --accent-color: #2196f3;
 }
 body {
-  background-color: #e5e5e5;
   color: var(--primary-text-color);
 
   font-family: roboto, sans-serif;
@@ -13,41 +12,39 @@ body {
 .list {
   list-style: none;
 }
-.links {
+.link {
   text-decoration: none;
 }
-
 /*==================оформление шапки (навигация)==============*/
-.header {
-  background-color: #ffffff;
 }
-.logo {
+.nav .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
-
-.menu .link {
+.menu .menu-link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.menu .link:hover,
-.menu .link:focus,
-.menu .link.current,
-.menu .mail-tel:hover,
-.menu .mail-tel:focus,
-.web {
+.nav .menu-link:hover,
+.nav .menu-link:focus,
+.nav .menu-link.current,
+.contact .contact-mail:hover,
+.contact .contact-mail:focus,
+.contact .contact-phone:hover,
+.contact .contact-phone:focus,
+.logo-accent {
   color: var(--accent-color);
 }
-.menu .mail-tel {
+.contact .contact-mail,
+.contact .contact-phone {
   color: var(--primary-text-color);
 }
-
 /*====================оформление секции героя ======================*/
 .hero {
   background-color: #2f303a;
@@ -63,7 +60,7 @@ body {
 }
 .hero .hero-button {
   background-color: var(--accent-color);
-  color: var (--title-text-color);
+  color: var(--title-text-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -89,8 +86,8 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.section .text,
-.footer .text {
+.section .desc,
+.footer .desc {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -111,7 +108,7 @@ body {
 .team-title {
   font-weight: 500;
 }
-.team .text,
+.team .desc,
 .team-title {
   font-size: 16px;
   line-height: 1.18;
@@ -128,11 +125,12 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
-.link-address,
+.footer-address,
 .footer-logo {
   color: #ffffff;
 }
-.link {
+.footer-mail,
+.footer-phone {
   color: rgba(255, 255, 255, 0.6);
 }
 /*==================================Конец "нижний колонтитул"=======================*/
