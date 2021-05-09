@@ -70,6 +70,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border: 0;
 }
 .hero .hero-button:hover,
 .hero .hero-button:focus {
@@ -147,6 +148,7 @@ body {
   letter-spacing: 1.62;
   text-align: center;
   cursor: pointer;
+  border: 0;
 }
 .filter-button:hover,
 .filter-button:focus {
