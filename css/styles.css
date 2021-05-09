@@ -2,10 +2,15 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --background-hero-footer: #2f303a;
+  --logo-nav: #000000;
+  --title-text-color-footer: #ffffff;
+  --button-hover-focus: #188ce8;
+  --background-our-team-filter: #f5f4fa;
+  --footer-mail-phone: rgba(255, 255, 255, 0.6);
 }
 body {
   color: var(--primary-text-color);
-
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -16,9 +21,8 @@ body {
   text-decoration: none;
 }
 /*==================оформление шапки (навигация)==============*/
-}
 .nav .logo {
-  color: #000000;
+  color: var(--logo-nav);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -47,11 +51,11 @@ body {
 }
 /*====================оформление секции героя ======================*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-hero-footer);
   text-align: center;
 }
 .hero .hero-title {
-  color: #ffffff;
+  color: var(--title-text-color-footer);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -71,8 +75,8 @@ body {
 }
 .hero .hero-button:hover,
 .hero .hero-button:focus {
-  background-color: #188ce8;
-  color: #ffffff;
+  background-color: var(--button-hover-focus);
+  color: var(--title-text-color-footer);
 }
 /*====================Конец оформления секции героя ======================*/
 
@@ -103,7 +107,7 @@ body {
 
 /*=======================секция наша команда==================================*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-our-team-filter);
 }
 .team-title {
   font-weight: 500;
@@ -117,7 +121,7 @@ body {
 
 /*==================================нижний колонтитул===============================*/
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-hero-footer);
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -127,17 +131,17 @@ body {
 }
 .footer-address,
 .footer-logo {
-  color: #ffffff;
+  color: var(--title-text-color-footer);
 }
 .footer-mail,
 .footer-phone {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-mail-phone);
 }
 /*==================================Конец "нижний колонтитул"=======================*/
 
 /*====================================Портфолио====================================*/
 .filter-button {
-  background-color: #f5f4fa;
+  background-color: var(--background-our-team-filter);
   color: var (--title-text-color);
   font-family: inherit;
   font-weight: 500;
@@ -151,7 +155,7 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--title-text-color-footer);
 }
 .works-title {
   color: var(--title-text-color);
